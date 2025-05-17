@@ -1,3 +1,20 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+/**
+ * Default Routes Configuration. Modify as you want
+*/
+
+export const routes: Routes = [
+    {
+        path: '',
+        loadComponent: () => import('./pages/home-page/home-page.component'),
+    },
+    {
+        path: 'error',
+        loadComponent: () => import('./pages/error-page/error-page.component'),
+    },
+    {
+        path: '**',
+        redirectTo: ''
+    }
+];
