@@ -40,3 +40,12 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+# Markdown Files
+CHAT-GPT.md
+chat-gpt.md
+PLANNING.md
+planning.md
+
+# Env Files
+.env

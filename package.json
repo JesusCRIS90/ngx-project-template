@@ -18,6 +18,10 @@
     "@angular/platform-browser": "^19.0.0",
     "@angular/platform-browser-dynamic": "^19.0.0",
     "@angular/router": "^19.0.0",
+    "@beexy/ngx-components": "^1.0.5",
+    "@beexy/ngx-layouts": "^1.0.0",
+    "@beexy/ngx-modals": "^1.0.1",
+    "@beexy/tools": "^1.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
