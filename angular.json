@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cv-web": {
+    "ngx-template": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/cv-web",
+            "outputPath": "dist/ngx-template",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "cv-web:build:production"
+              "buildTarget": "ngx-template:build:production"
             },
             "development": {
-              "buildTarget": "cv-web:build:development"
+              "buildTarget": "ngx-template:build:development"
             }
           },
           "defaultConfiguration": "development"
